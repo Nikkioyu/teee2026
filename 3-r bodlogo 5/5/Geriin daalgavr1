@@ -1,0 +1,13 @@
+too = [23, 5, 89, 43, 12, 7]
+
+ih = too[0]
+baga = too[0]
+
+for num in numbers:
+    if num > ih:
+        ih = num
+    if num < baga:
+        baga = num
+
+print("Хамгийн их:", ih)
+print("Хамгийн бага:", baga)
